@@ -10,11 +10,6 @@
   <link rel="stylesheet" href="home.css">
 </head>
 	<body>
-		<?php
-		include('dbconnect.php');
-// get value of id that sent from address bar
-$userEmail=$_GET['Email'];
-?>
 	<div class="dropdwn">
 	
 	<nav>
