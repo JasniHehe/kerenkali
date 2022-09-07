@@ -21,8 +21,8 @@ $userEmail=$_GET['Email'];
 		<img class="logo" src="img/logo.png" alt="">
 	
 		 <ul>
-			 <li><a style="background: #F7F7F7" href="UserHome.php?Email=<?php echo $userEmail ?>">Home</a></li>
-			 <li><a href="UserPrayer.php?Email=<?php echo $userEmail ?>">Prayer Times</a></li>
+			 <li><a>Home</a></li>
+			 <li><a>Prayer Times</a></li>
 			 <li><a href="UserEvent.php?Email=<?php echo $userEmail ?>">Event</a></li>		
 			 
 			 <li><a href="#">Booking <i class="fas fa-caret-down"></i></a>
