@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="home.css">
 </head>
 	<body>
-		<h1>Hello</h1>
 	<div class="dropdwn">
 	
 	<nav>
