@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+.max-width{
+	max-width: 1500px;
+	padding: 0 80px;
+	margin: auto;
+	
+}
+.dropdwn{
+	margin: 0 auto;
+}
+
+nav{
+	height: 90px;
+	background: #F4E4A1;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);	
+	font-family: 'Josefin Sans', sans-serif;
+} 
+
+.logo{
+	padding: 10px 0 0 80px;
+	width: 150px;
+	height: auto;
+}
+
+nav ul{
+	padding: 10px 0 0 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li:hover{
+		background: white;
+
+}
+
+nav ul li{
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	z-index: 1;
+}
+
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: black;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	text-align: center;
+}
+
+nav ul li a:hover{
+	background: white;
+	color: crimson;
+	z-index: 1;
+}
+
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul ul li {
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+/* coverpage styling*/
+
+ .content-cover {
+	align-items: center;
+	position: relative;
+	min-height: 100vh;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.home .content-cover{
+	display: flex;
+	background:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("img/hehe.jpg");
+	width: 100%;
+	height: 750px;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer .icons a:hover{
+	color: #504FAF;
+}
+
+.footer .icons{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: black;
+	text-align: center;
+}
+
+
+/* menu button styling*/
+
+.menu-btn{
+	color: white;
+	font-size: 23px;
+	cursor: pointer;
+
+	display: none;
+}
+/* responsive media query*/
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background:url("img/masjif.jpg");
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 10px;
+    background: #f7dc9c;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+ 
+.banner{
+width: 100%;
+height:100vh;
+background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/quran1.jpg);
+background-size:cover;
+background-position:center;
+}
+
+.banner .conteng{
+width: 100%;
+margin-top:20%;
+position: absolute;
+transform: translateY(-50%);
+text-align: center;
+color: #fff;
+}
+
+.conteng h1{
+font-size: 70px;
+margin-top:80px;
+}
+
+.conteng p{
+margin:20px auto;
+font-weight:400;
+line-height: 25px;
+}

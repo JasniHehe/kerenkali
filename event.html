@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Event</title>
+	  <link rel="stylesheet" href="event.css">
+	  <link rel="stylesheet" href="evo-calendar.min.css">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div class="dropdwn">
+	
+	<nav>
+		<img class="logo" src="img/logo.png" alt="">
+	
+		 <ul>
+			 <li><a href="hom.html">Home</a></li>	
+			 <li><a href="prayer.html">Prayer Times</a></li>
+			 <li><a style="background: #F7F7F7" href="event.html">Event</a></li>		
+			 
+			 <li><a href="#">Booking <i class="fas fa-caret-down"></i></a>
+			 <ul>
+			 <li><a href="hall.php" style="background-color:white;">Hall</a></li>
+			 <li><a href="court.html" style="background-color:white;">Court</a></li>
+			 </ul>
+			 </li>
+			 
+			 <li><a href="#.">Donate <i class="fas fa-caret-down"></i></a>	
+			 <ul>
+			 <li><a href="fund.html" style="background-color:white;">Charity</a></li>
+			 <li><a href="foodbank.php" style="background-color:white;">Foodbank</a></li>
+			 </ul>
+			 </li>
+			 
+			 <li><a href="about us.html">About Us</a></li>
+			 <li><a href="contact us.html">Contact Us</a></li>	
+			 <li><a href="Sign_in.php">Sign In</a></li>
+
+		</ul>
+		</nav>
+		
+	</div>
+	<div class="hero">
+		<div id="calendar"></div>
+
+		
+		
+		
+		
+		
+	</div>
+	<div class="kalendar" style="padding-top: 45%">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+	<script src="evo-calendar.min.js"></script>
+	</div>
+	<script>
+	$(document).ready(function() {
+    $('#calendar').evoCalendar({
+		
+		theme:"Midnight Blue",
+		calendarEvents: [
+      {
+        id: 'HappyNY', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2020", // Event date (required)nb                                 
+		description:"Cheers to more shared successes in the new year!",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        name: "Kuliah Maghrib",
+        badge: "02/13", // Event badge (optional)
+        date: ["February/15/2022"], // Date range
+        description: "Kuliah maghrib bersama Ustaz Azhar Idrus membincangkan tajuk solat", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      },
+			{
+        name: "Kem Bestari Solat",
+        badge: "02/25 - 02/28", // Event badge (optional)
+        date: ["February/25/2022", "February/28/2022"], // Date range
+        description: "Kem bestari solat bagi pelajar berumur 8-12 tahun", // Event description (optional)
+        type: "event",
+        color: "#a89132" // Event custom color (optional)
+      }
+    ]
+	})
+	})
+	</script>
+	<!-- footer -->
+	
+	<section class="footer">
+		<div class="icons">
+			<a href="https://www.facebook.com/jasnihusaini" target="_blank" class="fab fa-facebook"></a>
+			<a href="https://www.instagram.com/jasnihusaini/" target="_blank" class="fab fa-instagram"></a>	
+			<p style="color:#BCBCBC; font-family: 'Ubuntu'; font-size: 12px">Artwork by Jasni Husaini | Powered by Dreamweaver</p>
+		</div>	
+	</section>
+	
+</body>
+</html>

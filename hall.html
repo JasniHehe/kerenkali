@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title> KARIAH PANCHOR JAYA MOSQUE</title>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  	<link rel="stylesheet" href="hall.css">
+	<link href="https://fonts.googleapis.com/css2family=Roboto:ital,wght@0,400;0,00;1,700&display=swap" rel="stylesheet">
+
+</head>
+	<body>
+	<div class="dropdwn">
+	
+	<nav>
+		<img class="logo" src="img/logo.png" alt="">
+	
+		 <ul>
+			 <li><a href="hom.html">Home</a></li>	
+			 <li><a href="prayerr.html">Prayer Times</a></li>
+			 <li><a href="UserEvent.php">Event</a></li>		
+			 
+			 <li><a style="background: #F7F7F7" href="#">Booking <i class="fas fa-caret-down"></i></a>
+			 <ul>
+			 <li><a href="hall.php" style="background-color:white;">Hall</a></li>
+			 <li><a href="court.html" style="background-color:white;">Court</a></li>
+			 </ul>
+			 </li>
+			 
+			 <li><a href="#.">Donate <i class="fas fa-caret-down"></i></a>	
+			 <ul>
+			 <li><a href="fund.html" style="background-color:white;">Charity</a></li>
+			 <li><a href="foodbank.php" style="background-color:white;">Foodbank</a></li>
+			 </ul>
+			 </li>
+			 
+			 <li><a href="about us.html">About Us</a></li>
+			 <li><a href="contact us.html">Contact Us</a></li>	
+			 <li><a href="Sign_in.php">Sign In</a></li>
+
+		</ul>
+		</nav>
+	</div>
+		
+		<h1>&nbsp;</h1>
+		<h1>&nbsp;</h1>
+		<h1>&nbsp;</h1>
+		<h1>&nbsp;</h1>
+		<h1>&nbsp;</h1>
+		<h5>&nbsp;</h5>
+		
+		<div class="container">
+		<form class="form" id="createAccount" method="post" action="bookhall.php">
+		<h1 class="form__title">Book Hall Now</h1>
+		<div class="form__message form_message--error"></div>
+					
+			<div class="form__input-group">
+			<input type="text" class="form__input" name="email" autofocus placeholder="Email Address">
+			<div class="form__input-error-message"></div>
+				</div>
+			
+			<div class="form__input-group">
+			<input style="display: block;width: 100%;padding: 0.75rem;box-sizing: border-box;border-radius: 4px;border: 1px solid #dddddd;outline: none;background: #eeeeee;transition: background 0.2s, border-color 0.2s;" list="hall" name="hall" autofocus placeholder="Hall">
+  			<datalist id="hall">
+    		<option value="Mahsuri"></option>
+    		<option value="Lekir"></option>
+    		<option value="Jebat"></option>
+    		<option value="Tuah"></option>
+  			</datalist>
+			<div class="form__input-error-message"></div>
+		  </div>
+			
+			<div class="form__input-group">
+			<input type="date" id="date" class="form__input" name="date" autofocus placeholder="Select Your Date">
+			<div class="form__input-error-message"></div>
+		  </div>
+			
+			<button class="form__button" type="submit" name="Submit">Continue</button>
+		</form>
+		</div>
+	
+		<section class="footer">
+		<div class="icons">
+			<a href="https://www.facebook.com/jasnihusaini" target="_blank" class="fab fa-facebook"></a>
+			<a href="https://www.instagram.com/jasnihusaini/" target="_blank" class="fab fa-instagram"></a>	
+			<p style="color:#BCBCBC; font-family: 'Ubuntu'; font-size: 12px">Artwork by Jasni Husaini | Powered by Dreamweaver</p>
+		</div>	
+	
+	</section>
+
+</body>
+</html>

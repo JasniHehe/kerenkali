@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document || SALON BOOKING */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.max-width{
+	max-width: 1500px;
+	padding: 0 80px;
+	margin: auto;
+	
+}
+
+.dropdwn{
+	margin: 0 auto;
+}
+
+nav{
+	height: 90px;
+	background: #F4E4A1;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+	font-family: 'Josefin Sans', sans-serif;
+} 
+
+.logo{
+	padding: 10px 0 0 80px;
+	width: 150px;
+	height: auto;
+}
+
+nav ul{
+	padding: 10px 0 0 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li:hover{
+		background: white;
+
+}
+
+nav ul li{
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	z-index: 1;
+}
+
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: black;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	text-align: center;
+}
+
+nav ul li a:hover{
+	background: white;
+	color: crimson;
+	z-index: 1;
+}
+
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul ul li {
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+
+/* coverpage styling*/
+
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.footer .icons a:hover{
+	color: #504FAF;
+}
+
+.footer .icons{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: black;
+	text-align: center;
+}
+
+
+/* menu button styling*/
+
+.menu-btn{
+	color: white;
+	font-size: 23px;
+	cursor: pointer;
+
+	display: none;
+}
+
+.container{
+	width:400px;
+	max-width: 400px;
+	padding: 2rem;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 13rem;
+	
+}
+
+.container,
+.form__input,
+.form__button{
+	font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.form >*:first-child{
+	margin-top: 0;
+}
+
+.form >*:last-child{
+	margin-bottom: 0;
+}
+
+.form__title {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.form__message{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.form__message--success{
+	color: #42ba96;
+}
+
+.form__message--error{
+	color: #C73E1D;
+}
+
+.form__input-group{
+	margin-bottom: 1rem;
+}
+
+.form__input{
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 1px solid #dddddd;
+	outline: none;
+	background: #eeeeee;
+	transition: background 0.2s, border-color 0.2s;
+}
+
+
+.form__input:focus{
+	border-color: #009579;
+	background: #ffffff;
+}
+
+.form__input--error{
+	color: #cc3333;
+	border-color: #cc3333;
+}
+
+.form__input-error-message{
+	margin-top: 0.5rem;
+	font-size: 0.85rem;
+	color: #cc3333;
+}
+
+/*sign in button*/
+.form__button{
+	width: 100%;
+	padding: 1rem 2rem;
+	font-weight: bold;
+	font-size: 1.1rem;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	outline: pointer;
+	background: #009579;
+	margin-bottom: 1rem;
+}
+
+.form__button:hover{
+	background: #007f67;
+}
+
+.form__text{
+	text-align: center;
+}
+
+/*link for forget pass and create account */
+.form__link{
+	color: #252c6a;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.form__link:hover{
+	text-decoration: underline;
+}
